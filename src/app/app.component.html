@@ -1,0 +1,21 @@
+<main>
+  <h1>Conversor de números romanos</h1>
+
+  <div id="content-box">
+    <div class="content">
+      <input type="text" name="number" [(ngModel)]="numberRoman" placeholder="número romano">
+      <h3 class="output">SAÍDA: {{ numberInArabic }}</h3>
+
+      <button (click)="convertToArabic()">Converter</button>
+    </div>
+    
+
+    <div class="content">
+      <input type="number" name="number" [(ngModel)]="numberArabic" placeholder="número arábico">
+      <h3 class="output">SAÍDA: {{ numberInRoman }}</h3>
+
+      <button (click)="convertToRoman()">Converter</button>
+    </div>
+
+  </div>
+</main>
