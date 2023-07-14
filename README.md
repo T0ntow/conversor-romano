@@ -1,6 +1,5 @@
 # ConversorRomano
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+Aplicativo desenvolvido para um teste de programação
 
 ## Deploy
-projeto enviado para o netlify: https://conversor-romano.netlify.app/
+https://conversor-romano.netlify.app/
